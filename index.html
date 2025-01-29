@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adaptivny</title>
+    <link rel="stylesheet" href="adaptiv.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <img src="logo.png" width="200" alt="">
+        <nav>
+            <a href="">Каталог</a>
+            <a href="">Бренды</a>
+            <a href="">Акции</a>
+            <a href="">Услуги</a>
+            <a href="">Компания</a>
+        </nav>
+        <form class="d-flex">
+            <input class="form-control me-2" type="text" placeholder="Search">
+            <button class="btn btn-primary" type="button">Поиск</button>
+        </form>
+    </header>
+    <main>
+        <div class="p-5 bg-primary text-white rounded intro-block ">
+            <h1>Добро пожаловать на мебелный магазин «Aisha»</h1>
+            <p>Заходите и выбирайте примеры стиля вашего будущего дома . . . .</p>
+        </div>
+        <div class="unique-block">
+            <p>Мебели на любой вкус!!!</p>
+            <img src="https://png.pngtree.com/png-vector/20240827/ourmid/pngtree-outdoor-furniture-black-and-white-furniture-png-image_13419578.png"
+                width="700" alt="">
+        </div>
+        <div class="unique-block">
+            <p>Офисные мебели из лучших стран.</p>
+            <img src="https://png.pngtree.com/png-vector/20241119/ourmid/pngtree-3d-illustration-of-home-furniture-storage-with-no-background-png-image_14508197.png"
+                width="700px" alt="">
+        </div>
+        <div class="unique-block">
+            <p>Заходите и выбирайте примеры стиля вашего будущего дома.</p>
+            <img src="https://armada.kz/storage/images/Aug2021/L4E19U2i1V.jpeg" width="700px" alt="">
+        </div>
+        <div class="tasks">
+            <div class="task">
+                <div class="tizers-list__item-text-wrapper">
+                    <a class="tizers-list__item-link dark_link tizers-list__item-name font_16 font_15--to-600 switcher-title color_222 color-theme-target"
+                        href="/catalog/">
+                        Быстрая доставка</a>
+                    <br>
+                    <span class="tizers-list__item-descr font_15 font_14--to-600">Бережно доставляем товары по
+                        Казахстану</span>
+                </div>
+            </div>
+
+            <div class="task">
+                <div class="tizers-list__item-text-wrapper">
+                    <a class="tizers-list__item-link dark_link tizers-list__item-name font_16 font_15--to-600 switcher-title color_222 color-theme-target"
+                        href="/catalog/">
+                        Клиентский сервис</a>
+                    <br>
+                    <span class="tizers-list__item-descr font_15 font_14--to-600">Отвечаем на вопросы покупателей в
+                        течение 10 минут</span>
+                </div>
+            </div>
+
+            <div class="task">
+                <div class="tizers-list__item-text-wrapper">
+                    <a class="tizers-list__item-link dark_link tizers-list__item-name font_16 font_15--to-600 switcher-title color_222 color-theme-target"
+                        href="/catalog/">
+                        Бонусы за покупки</a>
+                    <br>
+                    <span class="tizers-list__item-descr font_15 font_14--to-600">Дарим подарки и скидки всем
+                        покупателям</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="container myForm">
+            <form action="/action_page.php">
+                <h1>Заполните анкету для доставки заказа</h1>
+                <div class="mb-3 mt-3">
+                    <label for="ФИО" class="form-label">ФИО:</label>
+                    <input type="text" class="form-control" id="ФИО" placeholder="Введите ФИО" name="ФИО">
+                </div>
+                <div class="mb-3">
+                    <label for="Контактные данные" class="form-label">Контактные данные:</label>
+                    <input type="text" class="form-control" id="Контактные данные" placeholder="Номер телефона"
+                        name="Контактные данные">
+                </div>
+                <div class="mb-3 mt-3">
+                    <label for="Адресс доставки" class="form-label">Адресс доставки:</label>
+                    <input type="text" class="form-control" id="Адресс доставки" placeholder="Введите Адресс"
+                        name="Адресс">
+                </div>
+
+                <div class="mb-3">
+                    <label for="">Выберите вид мебели</label>
+                    <select class="form-select">
+                        <option>Офисные</option>
+                        <option>Для дома</option>
+                        <option>Для организации</option>
+                        <option>Другие</option>
+                    </select>
+                </div>
+                <div class="mb-3">
+                    <label for="">Выберите вид оплаты:</label>
+                    <div class="form-check">
+                        <input type="radio" class="form-check-input" id="radio1" name="optradio" value="option1"
+                            checked>
+                        Наличный расчет
+                        <label class="form-check-label" for="radio1"></label>
+                    </div>
+                    <div class="form-check">
+                        <input type="radio" class="form-check-input" id="radio2" name="optradio" value="option2">
+                        Безналичный расчет
+                        <label class="form-check-label" for="radio2"></label>
+                    </div>
+                </div>
+                <div class="qr-container">
+                    <img src="https://pngicon.ru/file/uploads/qr-kod.png" width="180" alt="QR-код">
+                </div>
+                <br><br>
+                <button type="submit" class="btn btn-primary">Отправить</button>
+            </form>
+        </div>
+        <br><br>
+    </main>
+
+    <footer>
+
+        Made by Olzhas
+        <br>
+        Tel: + 777-555-55-55
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

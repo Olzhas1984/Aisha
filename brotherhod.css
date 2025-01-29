@@ -1,0 +1,9 @@
+@font-face {
+	font-family: 'Brotherhod';
+	src: url('../fonts/brotherhod.eot'); /* IE 9 Compatibility Mode */
+	src: url('../fonts/brotherhod.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('../fonts/brotherhod.woff2') format('woff2'), /* Super Modern Browsers */
+		url('../fonts/brotherhod.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('../fonts/brotherhod.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('../fonts/brotherhod.svg#brotherhod') format('svg'); /* Chrome < 4, Legacy iOS */
+}
